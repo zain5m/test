@@ -7,6 +7,7 @@ import 'adaptive_indicator.dart';
 class MobileScreen extends StatelessWidget {
   const MobileScreen({Key? key}) : super(key: key);
 
+  ///hello
   @override
   Widget build(BuildContext context) {
     return Scaffold(

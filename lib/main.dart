@@ -21,9 +21,6 @@ class MyApp extends StatelessWidget {
       ),
       home: Builder(
         builder: (context) {
-          String platform = Platform.operatingSystem;
-          print(platform);
-
           if (MediaQuery.of(context).size.width <= 560) {
             return MediaQuery(
                 data: MediaQuery.of(context).copyWith(textScaleFactor: 0.7),
